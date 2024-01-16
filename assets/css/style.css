@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,900&display=swap");
+
+* {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+:root {
+  --text: #fff;
+  --color-btn: #ffd621;
+  --text-btn-color: #000;
+  --bg-element-color: #1b1b1b;
+  --text-footer-color: #7351c4;
+}
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+nav {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 336px;
+  width: 100%;
+  background: linear-gradient(
+    to bottom,
+    #151421 28%,
+    rgba(21, 20, 33, 0.75) 60%,
+    rgba(21, 20, 33, 0) 100%
+  ) !important;
+}
+
+.nav-content {
+  height: 100px;
+  width: 100%;
+  margin-top: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-r {
+  display: flex;
+  height: 100%;
+  padding-right: 45px;
+  float: right;
+}
+
+.nav-btn {
+  cursor: pointer;
+  font-weight: 700;
+  margin: 40px 34px;
+  color: var(--text);
+}
+
+.btn {
+  margin-top: -25px;
+  display: block;
+  color: var(--text);
+}
+
+h3 {
+  margin-top: 15px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.Text {
+  color: #da6a6a;
+  font-size: larger;
+  font-weight: 800;
+  margin-left: 3px;
+}
+
+button {
+  cursor: pointer;
+  margin-top: -40px;
+  height: 39px;
+  width: 150px;
+  border: none;
+  border-radius: 30px 30px;
+  font-size: large;
+  font-weight: 900;
+  background: var(--color-btn);
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+.logo {
+    width: 100%;
+}
+
+.logo > video {
+  margin-left: -46px;
+  padding: 4px;
+  width: 625px;
+}
+
+.top {
+  height: auto;
+  width: 100%;
+}
+
+.background > video {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+  z-index: -50px;
+  position: relative;
+}
+
+footer {
+  background: var(--text-btn-color);
+  color: var(--text-footer-color);
+  top: 0;
+  bottom: 0;
+  position: relative;
+  height: auto;
+  display: flex;
+  padding: 23px 0;
+  margin-top: -7px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 800;
+}
+
+.footer-icon > img {
+  height: 30px;
+  width: auto;
+}
+
+.data {
+  margin-top: 35px;
+  width: auto;
+}
+
+.info > p {
+  margin-top: -20px;
+  font-weight: 800;
+  margin-left: 2rem;
+}
+
+.copyrighte > * {
+  display: block;
+  height: 50px;
+  width: auto;
+  align-items: center;
+  text-align: center;
+}
+
+span {
+  margin-top: 20px;
+}
+
+.social {
+  height: 50px;
+  width: auto;
+}
