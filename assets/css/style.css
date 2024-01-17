@@ -15,6 +15,7 @@
   --text-footer-color: #7351c4;
   --bg-footer: #101018;
   --color-footer-text: #65629b;
+  --bg-color: #151421;
 }
 
 body {
@@ -22,8 +23,7 @@ body {
   padding: 0;
   overflow-x: hidden;
   background-image: url(../content/background/pattern_stars_dark_888.png);
-
-  background-color: #151421;
+  background-color: var(--bg-color);
   background-repeat: repeat;
   background-size: 888px 888px;
   animation: bg-scrolling-reverse 27s infinite;
@@ -121,6 +121,7 @@ button:hover {
 }
 
 .logo > video {
+  object-fit: cover;
   margin-left: -46px;
   padding: 4px;
   width: 625px;
