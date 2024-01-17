@@ -160,7 +160,7 @@ button:hover {
   height: auto;
   position: absolute;
   z-index: 60;
-  margin: -37% 20rem;
+  margin: -37% 22%;
   color: white;
   display: block;
   justify-content: center;
@@ -198,6 +198,7 @@ footer {
 }
 
 .footer-icon > img {
+  padding: 2px 0;
   height: 40px;
   width: auto;
 }
