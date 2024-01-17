@@ -69,16 +69,14 @@ nav {
 }
 
 .btn {
-  margin-top: -25px;
+  margin: 18px 0;
   display: block;
   color: var(--text);
 }
 
-h3 {
-  margin-top: 15px;
-  display: flex;
+.order {
+  display: block;
   text-align: center;
-  align-items: center;
   text-shadow: 0px 0px 2px #000000;
 }
 
@@ -86,14 +84,13 @@ h3 {
   color: #da6a6a;
   font-size: larger;
   font-weight: 800;
-  margin-left: 3px;
 }
 
 button {
+  margin-top: 7px;
   cursor: pointer;
-  margin-top: -40px;
-  height: 39px;
-  width: 150px;
+  height: 37px;
+  width: 140px;
   border: none;
   border-radius: 30px 30px;
   font-size: large;
@@ -101,7 +98,7 @@ button {
   background: var(--color-btn);
   justify-content: center;
   align-items: center;
-  position: absolute;
+  position: relative;
 }
 
 .logo {
@@ -127,23 +124,6 @@ button {
   position: relative;
 }
 
-.welcome-text {
-  height: auto;
-  width: 100%;
-  position: absolute;
-  z-index: 60;
-  margin: -37% 20rem;
-  color: white;
-  display: block;
-}
-
-.con {
-  height: auto;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-}
-
 .about-me {
   font-size: 2.5rem;
   font-weight: 1000;
@@ -158,6 +138,29 @@ button {
   font-weight: 600;
   text-align: start;
   letter-spacing: -2px;
+  text-shadow: 1px 2px 5px #000000;
+}
+
+.welcome-text {
+  height: auto;
+  position: absolute;
+  z-index: 60;
+  margin: -37% 20rem;
+  color: white;
+  display: block;
+}
+
+.con {
+  height: auto;
+  width: 370px;
+  justify-content: center;
+  align-items: center;
+}
+
+.con-el{
+  width: 132px;
+  text-align: center;
+  font-weight: 700;
   text-shadow: 1px 2px 5px #000000;
 }
 
