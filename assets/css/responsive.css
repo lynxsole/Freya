@@ -1,0 +1,68 @@
+@media screen and (min-width: 2519px) {
+  .welcome-text {
+    height: auto;
+    position: absolute;
+    z-index: 60;
+    margin: -42% 35.1rem;
+    color: white;
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 1473px) {
+  .welcome-text {
+    height: auto;
+    position: absolute;
+    z-index: 60;
+    margin: -37% 15rem;
+    color: white;
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 1380px) {
+  .nav-content {
+    height: 100px;
+    width: 100%;
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    float: right;
+  }
+
+  .logo {
+    width: auto;
+    display: none;
+  }
+
+  .btn-r {
+    display: flex;
+    height: 100%;
+    float: right;
+    margin: 0 25rem;
+  }
+  .welcome-text {
+    height: auto;
+    position: absolute;
+    z-index: 60;
+    margin: -37% 20rem;
+    color: white;
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .background > video {
+    width: 100%;
+    object-fit: cover;
+    z-index: -50px;
+    position: relative;
+    top: 0;
+    min-width: 1012px;
+  }
+}

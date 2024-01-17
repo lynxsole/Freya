@@ -4,6 +4,7 @@
   font-family: "Nunito", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+  transition: 0.5s;
 }
 
 :root {
@@ -12,11 +13,21 @@
   --text-btn-color: #000;
   --bg-element-color: #1b1b1b;
   --text-footer-color: #7351c4;
+  --bg-footer: #101018;
+  --color-footer-text: #65629b;
 }
+
 body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  background-image: url(../content/background/pattern_stars_dark_888.png);
+
+  background-color: #151421;
+  background-repeat: repeat;
+  background-size: 888px 888px;
+  animation: bg-scrolling-reverse 27s infinite;
+  animation-timing-function: linear;
 }
 
 ul,
@@ -101,6 +112,10 @@ button {
   position: relative;
 }
 
+button:hover {
+  background: #e0bf2b;
+}
+
 .logo {
   width: 100%;
 }
@@ -112,12 +127,12 @@ button {
 }
 
 .top {
-  height: auto;
+  height: 100%;
   width: 100%;
 }
 
 .background > video {
-  height: auto;
+  height: 100%;
   width: 100%;
   object-fit: cover;
   z-index: -50px;
@@ -148,6 +163,8 @@ button {
   margin: -37% 20rem;
   color: white;
   display: block;
+  justify-content: center;
+  align-items: center;
 }
 
 .con {
@@ -157,7 +174,7 @@ button {
   align-items: center;
 }
 
-.con-el{
+.con-el {
   width: 132px;
   text-align: center;
   font-weight: 700;
@@ -165,15 +182,15 @@ button {
 }
 
 footer {
-  background: var(--text-btn-color);
-  color: var(--text-footer-color);
-  top: 0;
+  background: var(--bg-footer);
+  color: var(--color-footer-text);
   bottom: 0;
   position: relative;
   height: auto;
   display: flex;
-  padding: 23px 0;
-  margin-top: -7px;
+  padding: 25px 0;
+  margin-top: -6px;
+  height: auto;
   width: 100%;
   justify-content: space-between;
   align-items: center;
@@ -181,7 +198,7 @@ footer {
 }
 
 .footer-icon > img {
-  height: 30px;
+  height: 40px;
   width: auto;
 }
 
@@ -198,7 +215,7 @@ footer {
 
 .copyrighte > * {
   display: block;
-  margin-top: 10px;
+  margin-top: 1px;
   height: 50px;
   width: auto;
   align-items: center;
