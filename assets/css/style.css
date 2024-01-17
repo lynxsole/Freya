@@ -154,6 +154,7 @@ footer {
 
 .copyrighte > * {
   display: block;
+  margin-top: 10px;
   height: 50px;
   width: auto;
   align-items: center;
@@ -161,7 +162,7 @@ footer {
 }
 
 span {
-  margin-top: 8px;
+  margin-top: 2px;
 }
 
 .social {
