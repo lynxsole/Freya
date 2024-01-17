@@ -60,6 +60,12 @@ nav {
   font-weight: 700;
   margin: 40px 34px;
   color: var(--text);
+  transition: 0.5s;
+}
+
+.nav-btn:hover {
+  transition: 0.3s;
+  text-shadow: 0px 0px 3px var(--text);
 }
 
 .btn {
@@ -73,6 +79,7 @@ h3 {
   display: flex;
   text-align: center;
   align-items: center;
+  text-shadow: 0px 0px 2px #000000;
 }
 
 .Text {
@@ -98,7 +105,7 @@ button {
 }
 
 .logo {
-    width: 100%;
+  width: 100%;
 }
 
 .logo > video {
@@ -118,6 +125,40 @@ button {
   object-fit: cover;
   z-index: -50px;
   position: relative;
+}
+
+.welcome-text {
+  height: auto;
+  width: 100%;
+  position: absolute;
+  z-index: 60;
+  margin: -37% 20rem;
+  color: white;
+  display: block;
+}
+
+.con {
+  height: auto;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-me {
+  font-size: 2.5rem;
+  font-weight: 1000;
+  text-shadow: -2px 5px 0px #000000;
+  letter-spacing: 1px;
+}
+
+.just-me {
+  height: auto;
+  width: 420px;
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-align: start;
+  letter-spacing: -2px;
+  text-shadow: 1px 2px 5px #000000;
 }
 
 footer {
