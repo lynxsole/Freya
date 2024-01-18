@@ -18,6 +18,10 @@
   --bg-color: #151421;
 }
 
+::selection{
+  background: var(--color-footer-text);
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -68,7 +72,8 @@ nav {
 
 .nav-btn {
   cursor: pointer;
-  font-weight: 700;
+  font-weight: 900;
+  letter-spacing: 3px;
   margin: 40px 34px;
   color: var(--text);
   transition: 0.5s;
@@ -76,7 +81,7 @@ nav {
 
 .nav-btn:hover {
   transition: 0.3s;
-  text-shadow: 0px 0px 3px var(--text);
+  text-shadow: 0px 0px 5px var(--text);
 }
 
 .btn {
@@ -154,7 +159,7 @@ button:hover {
   font-weight: 600;
   text-align: start;
   letter-spacing: -2px;
-  text-shadow: 1px 2px 5px #000000;
+  text-shadow: 0px 3px 0px #000000;
 }
 
 .welcome-text {
@@ -175,11 +180,15 @@ button:hover {
   align-items: center;
 }
 
+.con > .btn{
+  margin: 0 5.5rem;
+}
+
 .con-el {
   width: 132px;
   text-align: center;
   font-weight: 700;
-  text-shadow: 1px 2px 5px #000000;
+  text-shadow: 2px 2px 5px #000000;
 }
 
 footer {
@@ -205,6 +214,7 @@ footer {
 }
 
 .data {
+  cursor: pointer;
   margin-top: 35px;
   width: auto;
 }
